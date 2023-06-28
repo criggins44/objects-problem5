@@ -21,4 +21,10 @@ const arrayOfSortedObjects = arrayOfBooks.sort(function(a, b) {
 	if(a.title.toLowerCase() > b.title.toLowerCase()){return 1};
 	return 0;
 })
-console.log(arrayOfSortedObjects)
+//console.log(arrayOfSortedObjects)
+
+const sortTheObjects = arrayOfSortedObjects => {
+
+	console.log(arrayOfSortedObjects);
+}
+sortTheObjects(arrayOfSortedObjects);
